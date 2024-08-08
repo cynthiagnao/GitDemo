@@ -23,8 +23,8 @@ def test_firstProgram():
     print("ADDED BY USER X")
     print("EDITED BY FIRST USER")
     print("DEVELOPED FEATURES")
-
-    
+    print("CANADIAN DEVELOPMENT TEAM")
+    print("CANADIAN DEVELOPMENT TEAM")
 
 def test_SecondCreditCard():
     a = 4
