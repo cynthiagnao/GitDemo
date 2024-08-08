@@ -22,6 +22,8 @@ def test_firstProgram():
     assert msg == "Hi, test failed because strings do not match"
     print("ADDED BY USER X")
     print("EDITED BY FIRST USER")
+    print("DEVELOPED FEATURES")
+
     
 
 def test_SecondCreditCard():

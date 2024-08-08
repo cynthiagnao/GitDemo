@@ -9,11 +9,15 @@ def test_firstProgram(setup):
     print("Hello")
     print("ADDED BY USER X")
     print("EDITED BY FIRST USER")
+    print("DEVELOPED FEATURES")
+    print("DEVELOPED FEATURES")
 
 @pytest.mark.xfail
 def test_SecondGreetCreditCard():
     print("Good Morning")
     print("Changed by User X")
+    print("DEVELOPED FEATURES")
+
 
 def test_crossBrowser(crossBrowser):
     print(crossBrowser[1])
