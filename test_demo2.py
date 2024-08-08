@@ -22,12 +22,13 @@ def test_firstProgram():
     assert msg == "Hi, test failed because strings do not match"
     print("ADDED BY USER X")
     print("EDITED BY FIRST USER")
-
+    
 
 def test_SecondCreditCard():
     a = 4
     b = 6
     assert a+2 == 6, "Addition do match"
+    print("Changed by User X")
 
 
 #Fixtures can be used for opening a browser,
