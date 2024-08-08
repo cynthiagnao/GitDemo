@@ -20,6 +20,7 @@ import pytest
 def test_firstProgram():
     msg = "Hello" #operations
     assert msg == "Hi, test failed because strings do not match"
+    print("ADDED BY USER X")
 
 def test_SecondCreditCard():
     a = 4

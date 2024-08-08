@@ -7,6 +7,7 @@ import pytest
 @pytest.mark.smoke
 def test_firstProgram(setup):
     print("Hello")
+    print("ADDED BY USER X")
 
 @pytest.mark.xfail
 def test_SecondGreetCreditCard():
