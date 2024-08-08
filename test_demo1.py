@@ -8,6 +8,7 @@ import pytest
 def test_firstProgram(setup):
     print("Hello")
     print("ADDED BY USER X")
+    print("EDITED BY FIRST USER")
 
 @pytest.mark.xfail
 def test_SecondGreetCreditCard():
